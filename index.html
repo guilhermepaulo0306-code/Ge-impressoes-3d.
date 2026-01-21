@@ -1,84 +1,138 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<title>G E Impressões 3D</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GE Impressões 3D</title>
 
-<style>
-body{
-  margin:0;
-  font-family:Arial, Helvetica, sans-serif;
-  background:#0e0e0e;
-  color:#fff;
-}
-header{
-  background:#000;
-  padding:25px;
-  text-align:center;
-}
-header h1{
-  margin:0;
-  color:#00ffcc;
-}
-header p{
-  color:#ccc;
-}
-.catalogo{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
-  gap:20px;
-  padding:20px;
-}
-.produto{
-  background:#1a1a1a;
-  border-radius:12px;
-  padding:15px;
-  text-align:center;
-}
-.produto img{
-  width:100%;
-  border-radius:10px;
-}
-.produto h3{
-  margin:10px 0 5px;
-}
-.produto p{
-  font-size:14px;
-  color:#bbb;
-}
-.botao{
-  display:inline-block;
-  margin-top:10px;
-  padding:10px 16px;
-  background:#00ffcc;
-  color:#000;
-  text-decoration:none;
-  border-radius:8px;
-  font-weight:bold;
-}
-.whatsapp{
-  position:fixed;
-  bottom:20px;
-  right:20px;
-  background:#25d366;
-  color:#fff;
-  padding:14px 20px;
-  border-radius:50px;
-  text-decoration:none;
-  font-weight:bold;
-}
-footer{
-  background:#000;
-  text-align:center;
-  padding:15px;
-  color:#777;
-}
-</style>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f0f0f;
+      color: #ffffff;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #00c6ff;
+    }
+
+    .catalogo {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .produto {
+      background: #1c1c1c;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+
+    .produto img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .botao {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background: #00c6ff;
+      color: #000;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .botao:hover {
+      background: #00a0d6;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
 </head>
 
 <body>
 
 <header>
-<h1>G E Impressões 3D</h1>
-<p>Catálogo de produtos per
+  <h1>GE Impressões 3D</h1>
+  <p>Soluções criativas em impressão 3D sob medida</p>
+</header>
+
+<section>
+  <h2>Catálogo de Produtos</h2>
+
+  <div class="catalogo">
+
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1606813902917-3c3f8e5a6c6d" alt="">
+      <h3>Suporte para Controle Gamer</h3>
+      <p>Modelo popular do Bambu Studio.</p>
+      <a class="botao" href="https://wa.me/5543996329790?text=Tenho%20interesse%20no%20Suporte%20para%20Controle%20Gamer" target="_blank">Tenho interesse</a>
+    </div>
+
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1587202372775-e229f172b9d7" alt="">
+      <h3>Suporte para Headset</h3>
+      <p>Ideal para setups gamers.</p>
+      <a class="botao" href="https://wa.me/5543996329790?text=Tenho%20interesse%20no%20Suporte%20para%20Headset" target="_blank">Tenho interesse</a>
+    </div>
+
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1612810806546-ebbf22b53496" alt="">
+      <h3>Suporte para Celular</h3>
+      <p>Compacto e muito vendido.</p>
+      <a class="botao" href="https://wa.me/5543996329790?text=Tenho%20interesse%20no%20Suporte%20para%20Celular" target="_blank">Tenho interesse</a>
+    </div>
+
+    <div class="produto">
+      <img src="https://images.unsplash.com/photo-1593642634315-48f5414c3ad9" alt="">
+      <h3>Suporte para Notebook</h3>
+      <p>Melhora a ventilação e postura.</p>
+      <a class="botao" href="https://wa.me/5543996329790?text=Tenho%20interesse%20no%20Suporte%20para%20Notebook" target="_blank">Tenho interesse</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 - GE Impressões 3D • Catálogo Online
+</footer>
+
+</body>
+</html>
 
